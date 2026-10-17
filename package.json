@@ -1,1 +1,13 @@
-
+{
+  "name": "quotex-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "monitor": "node monitor.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "playwright": "^1.55.0"
+  }
+}
