@@ -3,7 +3,7 @@ import { chromium } from "playwright";
 import { createClient } from "@supabase/supabase-js";
 
 const QUOTEX_URL =
-  process.env.QUOTEX_URL || "https://qxbroker.com/en/demo-trade/";
+  process.env.QUOTEX_URL || "https://quotex.com/en/demo-trade";
 
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
